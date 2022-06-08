@@ -5,7 +5,7 @@ authors = ["renhongdi <ryan.hd.ren@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-reqwest = "0.9"
+reqwest = { version = "0.9", features = ["rustls"] }
 serde = {version = "1.0", features = ["derive"]}
 serde_json = "1.0"
 chrono = {version = "0.4", features=["serde"]}
